@@ -17,11 +17,14 @@ public class Main {
         int arr[] = {1,2,3,4,5,6,7,8};
         int arr2[] = {1,4,4,4,4};
         int arr3[] = {1,4,23,43,2};
-        int arr4[] = {1,4,1,1,4};
+        int arr4[] = {1,4,1,1,5};
         int arr5[] = {1,1,1,1,4,5,6,7};
 
         boolean result;
         System.out.println("Вх: ->" + Arrays.toString(arr) + "Вых.: -> " + Arrays.toString(getLeterFour(arr)));
+        System.out.println("Вх: ->" + Arrays.toString(arr2) + "Вых.: -> " + Arrays.toString(getLeterFour(arr2)));
+        System.out.println("Вх: ->" + Arrays.toString(arr3) + "Вых.: -> " + Arrays.toString(getLeterFour(arr3)));
+        System.out.println("Вх: ->" + Arrays.toString(arr4) + "Вых.: -> " + Arrays.toString(getLeterFour(arr4)));
         System.out.println();
         System.out.println(Arrays.toString(arr) + " -> " +  gettOneAndFourArrays(arr));
         System.out.println(Arrays.toString(arr2) + " -> " +  gettOneAndFourArrays(arr2));
